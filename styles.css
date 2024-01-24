@@ -1,13 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 * {
-    color: red;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 /** GENERAL SECTION **/
+li {
+    list-style-type: none;
+}
 
-/** LANDING SECTION **/ 
+a {
+    text-decoration: none;
+}
+
+section {
+    background-color: rgb(245, 245, 245);
+}
+
+/** 
+
+LANDING SECTION 
+
+**/
+
+#landing--page {
+    min-height: 100vh; /** 730 in px**/
+}
+
+
+/* 
+
+NAVIGATION 
+
+*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px ;
+}
+
+#personal--logo {
+    filter: invert(1);
+    width: 50px;
+    height: 100%;
+}
+
+.nav__link--list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link {
+    margin: 0 12px;
+}
+
+.nav__link--anchor {
+    text-decoration: none;
+    font-size: 16px;
+    color: #242424;
+    font-weight: 700;
+}
+
+.fa-adjust {
+    font-size: 20px;
+}
+
+/**HEADER***/
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1000px;
+}
+
+.header__content {
+
+}
+
+.title {
+
+}
+
+.title__secondary {
+
+}
+
+.header__para {
+
+}
+
+.orange {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /** PROJECT SECTION ** 
