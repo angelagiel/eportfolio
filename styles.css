@@ -20,6 +20,11 @@ section {
 }
 
 
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
 /** 
 
 LANDING SECTION 
@@ -44,6 +49,7 @@ nav {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
     height: 100px ;
 }
 
@@ -64,7 +70,6 @@ nav {
 }
 
 .nav__link--anchor {
-    text-decoration: none;
     font-size: 16px;
     color: #242424;
     font-weight: 700;
@@ -82,6 +87,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 100%;
     max-width: 1000px;
+    padding: 0 30px;
 }
 
 .header__content {
@@ -105,10 +111,31 @@ nav {
     max-width: 450px;
 }
 
+.social__list {
+    margin-top: 16px;
+    display: flex;
+}
 
+.social__link {
+    background-color: #f06449;
+    color: #fff;
+    padding: 6px;
+    width: 32px; 
+    height: 32px;
+    font-size: 14px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
 
+/** 
+RESUME --------------------
+ADVANCED EPORTFOLIO PART 1: 
+34:50
 
-
+**/
 
 
 
