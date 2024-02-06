@@ -395,6 +395,10 @@ nav {
     z-index: -1;
 }
 
+.modal__overlay--visible {
+    z-index: 1;
+}
+
 .modal__overlay--loading {
     background-color: #2e2525;
     font-size: 80px;
@@ -556,12 +560,3 @@ footer {
 .footer__copyright  {
     color: #fff;
 }
-
-
- /** 
- RESUME
- ADVANCE EPORTFOLIO 1
- 1:47:22
- 
- ***/
-
