@@ -2,6 +2,10 @@
 // service_cj21lld  -- service id
 // RRGoQFjdBVXElmRTD -- API key - Public key
 
+let isModalOpen = false;
+let contrastToggle = false;
+
+
 function contact(event) {
   event.preventDefault();
   const loading = document.querySelector(".modal__overlay--loading");
@@ -38,7 +42,6 @@ function contact(event) {
 
 // "loading is visible once onsubmit after 1 second delay, loading is hidden and then success overlay is shown"
 
-let isModalOpen = false;
 function toggleModal() {
   if (isModalOpen) {
     isModalOpen = false;
@@ -47,4 +50,14 @@ function toggleModal() {
 
   isModalOpen = true;
   document.body.classList += " modal--open"
+}
+
+function toggleContrast() {
+  contrastToggle = !contrastToggle
+  if (contrastToggle) {
+    document.body.classList += " dark-theme"
+  }
+  else { 
+    document.body.classList.remove("dark-theme")
+  }
 }
