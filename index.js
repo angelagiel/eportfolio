@@ -37,3 +37,14 @@ function contact(event) {
 // }, 1000)
 
 // "loading is visible once onsubmit after 1 second delay, loading is hidden and then success overlay is shown"
+
+let isModalOpen = false;
+function toggleModal() {
+  if (isModalOpen) {
+    isModalOpen = false;
+    return document.body.classList.remove("modal--open");
+  }
+
+  isModalOpen = true;
+  document.body.classList += " modal--open"
+}
