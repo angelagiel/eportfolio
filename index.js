@@ -4,6 +4,7 @@
 
 let isModalOpen = false;
 let contrastToggle = false;
+const scaleFactor = 1 / 20;
 
 
 function contact(event) {
@@ -59,5 +60,17 @@ function toggleContrast() {
   }
   else { 
     document.body.classList.remove("dark-theme")
+  }
+}
+
+function moveBackground(event) {
+  const shapes = document.querySelectorAll(".shape");
+  const xAxis = event.clientX * scaleFactor;
+  const yAxis = event.clientY * scaleFactor;
+
+  for(let i = 0; i < shapes.length; ++i) {
+    const isOdd = i % 2 !== 0;
+    const boolInt = isOdd ? -1 : 1;
+    shapes[i].style.transform = `translate(${xAxis * boolInt}px, ${yAxis * boolInt}px)`;
   }
 }
