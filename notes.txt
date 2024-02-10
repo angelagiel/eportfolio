@@ -1,0 +1,29 @@
+change: 
+1. personal--logo 
+2. contact section 
+    -technologies
+    -job role 
+    -job role description 
+3. project 
+    -github links 
+    -published page linked
+    -description title 
+    -description subtitle 
+    -image mockups 
+4. resume 
+5. linkedin
+6. github
+7. color schemes
+8. emails
+9. pictures
+10. links 
+    - open them all in a new tab
+11. position of header
+
+
+// Host everything with github pages
+// search on google: github pages
+
+
+!! if you have this project on your portfolio and youre
+sending it up to companies, they are gonna be super impress 
